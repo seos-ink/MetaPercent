@@ -1,0 +1,123 @@
+
+
+:root {
+    --cornavbar: #6dd1c0;
+    --corindexcard:  #6dd1c0;
+    --corfooter: #6dd1c0;
+}
+
+
+
+.py-5.text-center {
+    background-color: var(--corindexcard)
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: var(--cornavbar) !important;
+}
+
+.navbar-brand {
+    color: #ecfffb;
+    font-size: 22px;
+}
+
+.nav-item a {
+    color: #ecfffb;
+    font-size: 20px;
+}
+
+.nav-link.active {
+    color: #ecfffb !important;
+    font-size: 20px;
+    border-bottom: 1px solid #ecfffb;
+    padding-bottom: 0;
+}
+
+
+.footerint {
+    width: 100%;
+    background-color: var(--corfooter);
+    color: #ecfffb;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.fotdiv {
+    text-align: center;
+}
+.fotdiv h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.fotdiv ul {
+    padding: 0;
+    list-style: none;
+}
+.fotdiv li {
+    margin-bottom: 5px;
+}
+.fotdiv a {
+    text-decoration: none;
+    color: #ecfffb;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.fotdiv a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1px;
+}
+
+.fotdiv li a i {
+    color: #ecfffb;
+    font-size: 25px;
+}
+
+:root{
+    --CorBotao: #6996ED;
+    --CorBotãoHover: #4A75C9;
+    --CorFooter: #6996ed;
+    --CorTexto: #ffffff;
+}
+
+*{
+    margin: 0 auto;
+}
+footer{
+    background-color: var(--CorFooter);
+    color: var(--CorTexto);
+    padding: 4rem;
+    padding-bottom: 0;
+}
+footer a{
+    color: var(--CorTexto);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--CorTexto);
+    text-shadow: 1px 1px 1px black;
+}
+.footer-metapercent{
+    color: var(--CorTexto);
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-li-links{
+    list-style: none;
+}
+.footer-li-links.cadastro{
+    display: flex;
+    justify-content: center;
+}
+.footer-list-links{
+    padding-left: 0;
+}
+.button-footer{
+    align-self:auto;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+}
