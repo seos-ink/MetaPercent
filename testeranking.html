@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metas</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .card {
+        padding: 20px;
+      }
+      .progress-bar {
+        position: relative;
+      }
+      .progress-bar span {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-weight: bold;
+        color: white;
+      }
+      .footerint {
+    width: 100%;
+    background-color: var(--corfooter);
+    color: white;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.fotdiv {
+    text-align: center;
+}
+.fotdiv h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.fotdiv ul {
+    padding: 0;
+    list-style: none;
+}
+.fotdiv li {
+    margin-bottom: 5px;
+}
+.fotdiv a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.fotdiv a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1px;
+}
+
+.fotdiv li a i {
+    color: white;
+    font-size: 25px;
+}
+
+:root{
+    --CorBotao: #6dbdd1;
+    --CorBotãoHover: #3396af;
+    --CorFooter: #6dbdd1;
+    --CorTexto: #f4fffd;
+}
+
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    background-color: var(--CorFooter);
+    color: var(--CorTexto);
+    padding: 4rem;
+    padding-bottom: 0;
+}
+footer a{
+    color: var(--CorTexto);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--CorTexto);
+    text-shadow: 1px 1px 1px black;
+}
+.footer-metapercent{
+    color: var(--CorTexto);
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-li-links{
+    list-style: none;
+}
+.footer-li-links.cadastro{
+    display: flex;
+    justify-content: center;
+}
+.footer-list-links{
+    padding-left: 0;
+}
+.button-footer{
+    align-self:auto;
+}
+.direitos{
+    display: flex;
+    justify-content: center;
+}
+
+a.btn.btn-light:hover{
+    background-color: #6dbdd1 !important;
+    border:  1px solid #6dbdd1;
+}
+
+a.btn.btn-outline-primary{
+    border:  1px solid #3396af;
+    color: #3396af;
+}
+
+a.btn.btn-outline-primary:hover{
+    border:  1px solid white;
+    color: white;
+    background-color: #68c3da;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Meta%</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem Somos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Card de meta 1 -->
+        <div class="col-6">
+          <div class="card">
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title">Título da Meta 1</h5>
+              <span class="bi bi-pencil-fill" style="cursor: pointer"></span>
+            </div>
+            <div class="progress" style="height: 30px">
+              <div
+                class="progress-bar"
+                style="width: 75%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card de meta 2 -->
+        <div class="col-6">
+          <div class="card">
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title">Título da Meta 2</h5>
+              <span class="bi bi-pencil-fill" style="cursor: pointer"></span>
+            </div>
+            <div class="progress" style="height: 30px">
+              <div
+                class="progress-bar"
+                style="width: 50%"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Card de meta 3 -->
+        <div class="col-6">
+          <div class="card">
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <h5 class="card-title">Título da Meta 3</h5>
+              <span class="bi bi-pencil-fill" style="cursor: pointer"></span>
+            </div>
+            <div class="progress" style="height: 30px">
+              <div
+                class="progress-bar"
+                style="width: 75%"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+                <!-- Card de meta 4 -->
+                <div class="col-6">
+                  <div class="card">
+                    <div
+                      class="card-body d-flex justify-content-between align-items-center"
+                    >
+                      <h5 class="card-title">Título da Meta 4</h5>
+                      <span class="bi bi-pencil-fill" style="cursor: pointer"></span>
+                    </div>
+                    <div class="progress" style="height: 30px">
+                      <div
+                        class="progress-bar"
+                        style="width: 50%"
+                        role="progressbar"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <span>50%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+
+
+    <footer style=>
+      <div class="container" >
+          <div class="row">
+              <div class="col-lg-3 col-12  metapercent">
+                  <a href="#" class="footer-metapercent">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-send-x-fill" viewBox="0 0 16 16">
+                          <path
+                              d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                          <path
+                              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-4.854-1.354a.5.5 0 0 0 0 .708l.647.646-.647.646a.5.5 0 0 0 .708.708l.646-.647.646.647a.5.5 0 0 0 .708-.708l-.647-.646.647-.646a.5.5 0 0 0-.708-.708l-.646.647-.646-.647a.5.5 0 0 0-.708 0" />
+                      </svg>
+                      MetaPercent
+                  </a>
+                  <p>Criado pela <a href="#">Equipe MetaPercent</a>, este site é perfeito para pessoas que busquem se
+                      desafiarem.</p>
+                  <p>Versão: v1.0</p>
+                  <ul class="footer-list-links">
+                      <li class="footer-li-links cadastro"><a href="#"
+                              class="btn btn-outline-light button-footer">Cadastrar-se</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6 ">
+                  <h5 class="footer-title">Redes sociais</h5>
+                  <ul class="footer-list-links">
+                      <li class="footer-li-links"><a href="#">
+                          <i class="bi bi-facebook"></i>
+                              Facebook</a></li>
+                      <li class="footer-li-links"><a href="#">
+                          <i class="bi bi-twitter-x"></i>
+                              Twitter</a></li>
+                      <li class="footer-li-links"><a href="#">
+                          <i class="bi bi-instagram"></i>
+                              Instagram</a></li>
+                      <li class="footer-li-links"><a href="#">
+                          <i class="bi bi-github"></i>
+                              Github</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6 ">
+                  <h5 class="footer-title">ligações</h5>
+                  <ul class="footer-list-links">
+                      <li class="footer-li-links"><a href="#">Home</a></li>
+                      <li class="footer-li-links"><a href="#">Criar metas</a></li>
+                      <li class="footer-li-links"><a href="#">Metas</a></li>
+                      <li class="footer-li-links"><a href="#">Perfil</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6 ">
+                  <h5 class="footer-title">Equipe</h5>
+                  <ul class="footer-list-links">
+                      <li class="footer-li-links"><a href="#">Membros</a></li>
+                      <li class="footer-li-links"><a href="testeranking.html">Sobre</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6 ">
+                  <h5 class="footer-title">Contato</h5>
+                  <p>Email: metaper@gmail.com</p>
+                  <p>Telefone: (12) 99999-9999</p>
+              </div>
+          </div>
+      </div>
+      <div class="direitos">
+          <p>@MetaPercent | Todos os direitos reservados</p>
+      </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

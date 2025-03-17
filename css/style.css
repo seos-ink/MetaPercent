@@ -1,12 +1,14 @@
 
 
 :root {
-    --cornavbar: #6dd1c0;
-    --corindexcard:  #6dd1c0;
-    --corfooter: #6dd1c0;
+    --cornavbar: #6dbdd1;
+    --corindexcard:  #6dbdd1;
+    --corfooter: #6dbdd1;
 }
 
-
+body{
+    background-color: #f4fffd;
+}
 
 .py-5.text-center {
     background-color: var(--corindexcard)
@@ -14,22 +16,24 @@
 
 .navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: var(--cornavbar) !important;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 55px;
 }
 
 .navbar-brand {
-    color: #ecfffb;
+    color: white;
     font-size: 22px;
 }
 
 .nav-item a {
-    color: #ecfffb;
+    color: white;
     font-size: 20px;
 }
 
 .nav-link.active {
-    color: #ecfffb !important;
+    color: white !important;
     font-size: 20px;
-    border-bottom: 1px solid #ecfffb;
+    border-bottom: 1px solid white;
     padding-bottom: 0;
 }
 
@@ -37,7 +41,7 @@
 .footerint {
     width: 100%;
     background-color: var(--corfooter);
-    color: #ecfffb;
+    color: white;
     font-size: 18px;
     padding: 30px 0;
 }
@@ -59,7 +63,7 @@
 }
 .fotdiv a {
     text-decoration: none;
-    color: #ecfffb;
+    color: white;
     transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 .fotdiv a:hover {
@@ -68,20 +72,22 @@
 }
 
 .fotdiv li a i {
-    color: #ecfffb;
+    color: white;
     font-size: 25px;
 }
 
 :root{
-    --CorBotao: #6996ED;
-    --CorBotãoHover: #4A75C9;
-    --CorFooter: #6996ed;
-    --CorTexto: #ffffff;
+    --CorBotao: #6dbdd1;
+    --CorBotãoHover: #3396af;
+    --CorFooter: #6dbdd1;
+    --CorTexto: #f4fffd;
 }
 
+
 *{
-    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 footer{
     background-color: var(--CorFooter);
     color: var(--CorTexto);
@@ -121,3 +127,30 @@ footer a:hover{
     display: flex;
     justify-content: center;
 }
+
+a.btn.btn-light:hover{
+    background-color: #6dbdd1 !important;
+    border:  1px solid #6dbdd1;
+}
+
+a.btn.btn-outline-primary{
+    border:  1px solid #3396af;
+    color: #3396af;
+}
+
+a.btn.btn-outline-primary:hover{
+    border:  1px solid white;
+    color: white;
+    background-color: #68c3da;
+}
+
+.btn-primary{
+    background-color: #3396af;
+    border: #3396af;
+}
+
+.btn-primary:hover{
+    background-color: #3396af;
+    border: #3396af;
+    color: black;
+} /* Boa nicolas*/
